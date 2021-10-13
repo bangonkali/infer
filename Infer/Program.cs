@@ -13,7 +13,7 @@ namespace Infer
     static int Main(string[] args)
     {
       var xmlDirectory = args[0];
-      var xsdOutput = args[1];
+      // var xsdOutput = args[1];
 
       XmlSchemaSet schemaSet = new XmlSchemaSet();
       XmlSchemaInference inference = new XmlSchemaInference();
